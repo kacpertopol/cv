@@ -23,7 +23,6 @@ title : Kacper Topolnicki, CV
 
 # Personal details
 
-* *date of birth*: 19 August 1985 
 * *work adress*: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland (room B-2-25)
 * *telephone*: (+48) 12 664 4869
 * *e-mail*: <kacper.topolnicki@uj.edu.pl> 
@@ -80,9 +79,9 @@ title : Kacper Topolnicki, CV
 # Positions
 
 * **2020-** 
-  * [current position] adiunkt (polish name, english equivalent: assistant professor) at the Institute of Physics, Jagiellonian University, Kraków, Poland
+  * [current position] adiunkt (english equivalent: assistant professor) at the Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2017-2020** 
-  * [3 years] asystent naukowy (polish name, english equivalent: research assistant) at the Institute of Physics, Jagiellonian University, Kraków, Poland
+  * [3 years] asystent naukowy (english equivalent: research assistant) at the Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2014-2017** 
   * [2015, $\approx$ 0.5 year] post-doc at Texas A&M University Commerce
   * various grants (more information in **Grants** section)

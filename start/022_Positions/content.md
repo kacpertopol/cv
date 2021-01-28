@@ -1,7 +1,7 @@
 * **2020-** 
-  * [current position] adiunkt (polish name, english equivalent: assistant professor) at the Institute of Physics, Jagiellonian University, Kraków, Poland
+  * [current position] adiunkt (english equivalent: assistant professor) at the Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2017-2020** 
-  * [3 years] asystent naukowy (polish name, english equivalent: research assistant) at the Institute of Physics, Jagiellonian University, Kraków, Poland
+  * [3 years] asystent naukowy (english equivalent: research assistant) at the Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2014-2017** 
   * [2015, $\approx$ 0.5 year] post-doc at Texas A&M University Commerce
   * various grants (more information in **Grants** section)
