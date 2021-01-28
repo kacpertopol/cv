@@ -127,6 +127,7 @@ title : Kacper Topolnicki, CV
   * few body systems
   * nuclear theory
   * numerical calculations
+  * teaching
 * languages
   * Polish (native)
   * English (CAE - 2003, CPE - 2006)
