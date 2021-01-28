@@ -1,0 +1,132 @@
+#!/usr/bin/python
+
+import os
+import argparse
+import subprocess
+
+this_dir = os.path.dirname(os.path.realpath(__file__))
+
+def make_anchour(s):
+    return "#" + s.lower().replace("_" , "-").replace(" " , "-").replace("(" , "").replace(")" , "").replace("/" , "-").replace("\\" , "-").replace("," , "").replace(":" , "")
+
+num = -1
+args = None
+
+def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None , toc = "TOC"):
+    """
+    all_md : [str]
+        String containing the main markdown file for the site.
+    toc_md : [str]
+        String containing the table of contents
+    level : int
+        Level in the tree, starting with 0
+    """
+    global args , num
+    dirname = os.path.split(directory)[-1][4:]
+    title = dirname.replace("_" , " ")
+    anchour = make_anchour(dirname) 
+
+    isRoot = (os.path.isfile(os.path.join(directory , "meta.md"))) and (os.path.isfile(os.path.join(directory , "init.md")))
+
+    if(not isRoot):
+        toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + anchour  + ")\n")
+
+        all_md.append("\n\n" + ("#" * level) + " " + title + "\n\n")
+        if(os.path.isfile(os.path.join(directory , "content.md"))):
+
+            #all_md.append("\n<div style=\"text-align: center\">")
+            #if(pre != None):
+            #    nme = pre[1:].replace("-" , " ")
+            #    all_md.append("<a href = " + pre + " title = \"" + nme + "\">←</a>")
+            #if(up != None):
+            #    nme = up[1:].replace("-" , " ")
+            #    all_md.append("<a href = " + up + " title = \"" + nme + "\">↑</a>")
+            #if(nxt != None):
+            #    nme = nxt[1:].replace("-" , " ")
+            #    all_md.append("<a href = " + nxt + " title = \"" + nme + "\">→</a>")
+            #all_md.append("</div>")
+
+            with open(os.path.join(directory , "content.md") , "r") as c:
+                all_md.append(c.read().replace("---ThisDir---" , directory))
+
+        subDirs = []
+        for f in os.listdir(directory):
+            if(os.path.isdir(os.path.join(directory , f))):
+                if(f[0].isdigit()):
+                    subDirs.append(f)
+        subDirs.sort(key = lambda s : int(s[0:3]))
+       
+        for ii in range(len(subDirs)):
+            pre_anchour = None
+            nxt_anchour = None
+            if(ii != 0):
+                pre_anchour = make_anchour(subDirs[ii - 1][4:])
+            if(ii != len(subDirs) - 1):
+                nxt_anchour = make_anchour(subDirs[ii + 1][4:])
+            process_dir(all_md , toc_md , level + 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour , toc = args.toc)
+    else:
+        num = num + 1 #increment the number of root directories
+        thisnum = num
+ 
+        subDirs = []
+        for f in os.listdir(directory):
+            if(os.path.isdir(os.path.join(directory , f))):
+                if(f[0].isdigit()):
+                    subDirs.append(f)
+        subDirs.sort(key = lambda s : int(s[0:3]))
+       
+        all_markdown = []
+        toc_markdown = []
+        toc_markdown.append("\n\n" + "# " + toc + "\n\n")
+        anchour = make_anchour(toc) 
+        for ii in range(len(subDirs)):
+            pre_anchour = None
+            nxt_anchour = None
+            if(ii != 0):
+                pre_anchour = make_anchour(subDirs[ii - 1][4:])
+            if(ii != len(subDirs) - 1):
+                nxt_anchour = make_anchour(subDirs[ii + 1][4:])
+            process_dir(all_markdown , toc_markdown , 1 , os.path.join(directory , subDirs[ii]) , pre = pre_anchour , up = anchour , nxt = nxt_anchour , toc = args.toc)
+
+        meta = ""
+        with open(os.path.join(directory , "meta.md") , "r") as f:
+            meta = f.read().replace("---ThisDir---" , directory)
+            meta = meta + "\n"
+
+        init = ""
+        with open(os.path.join(directory , "init.md") , "r") as f:
+            init = f.read().replace("---ThisDir---" , directory)
+            init = init + "\n"
+
+        index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
+
+        nnme = thisnum * "0" + args.name 
+
+        with open(os.path.join(directory , nnme + ".md") , "w") as f:
+            f.write(index_md)
+        
+        subprocess.run(args.command.split() + [os.path.join(directory , nnme + ".html")] + [os.path.join(directory , nnme + ".md")]) 
+        
+        subprocess.run(["cp"] + [os.path.join(directory , nnme + ".html")] + [os.path.join(args.htmlpath , nnme + ".html")]) 
+        
+        toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")\n")
+        all_md.append("\n\n" + ("#" * level) + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n\n")
+
+if(__name__ == "__main__"):
+    parser = argparse.ArgumentParser(description = """
+    Make static website.
+    """)
+    parser.add_argument("-t" , "--toc" , help = "Name for table of contents.")
+    parser.add_argument("command" , help = "Command to create html from markdown. Expects two arguments: the output html file and the md file.")
+    parser.add_argument("start" , help = "First node directory.")
+    parser.add_argument("htmlpath" , help = "Path to directory with html.")
+    parser.add_argument("name" , help = "Name for files.")
+    args = parser.parse_args()
+
+    if(args.toc == None):
+        args.toc = "TOC"
+
+    all_markdown = []
+    toc_markdown = []
+    process_dir(all_markdown , toc_markdown , 0 , args.start , toc = args.toc)
+    

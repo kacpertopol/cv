@@ -1,0 +1,9 @@
+#!/bin/bash
+
+make_light='/home/kacper/Documents/cv/make_light'
+
+./make_all -t " " "$make_light" "./start/" "./" "pl"
+
+cp pl.html index.html
+
+
