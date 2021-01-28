@@ -74,7 +74,7 @@ title : Kacper Topolnicki, CV
 # Positions
 
 * **2020-** 
-  * [indefinite contract] adiunkt (polish name, english equivalent: assistant proffesor) at the Institute of Physics, Jagiellonian University, Kraków, Poland
+  * [current position] adiunkt (polish name, english equivalent: assistant professor) at the Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2017-2020** 
   * [3 years] asystent naukowy (polish name, english equivalent: research assistant) at the Institute of Physics, Jagiellonian University, Kraków, Poland
 * **2014-2017** 
