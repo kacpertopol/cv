@@ -49,7 +49,7 @@ title : Kacper Topolnicki, CV
 * **2010-2014**
   * International PhD Studies
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](http://www.ips.if.uj.edu.pl/). 
+  * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](https://fais.uj.edu.pl/applied-nuclear-physics-and-innovative-technologies). 
     The studies lasted for four years. My chosen topic “Few-nucleon fusion reactions” was
     being supervised of professor Jacek Golak.
 * **2009-2014**
