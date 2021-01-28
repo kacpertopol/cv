@@ -32,24 +32,28 @@ title : Kacper Topolnicki, CV
 
 # Education
 
-* Ph.D. - Physics (**2014**)
+* **2014**
+  * Ph.D. - Physics
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
   * *description*: My thesis titled: “The two-nucleon and three-nucleon systems in three dimensions” was
     successfully defended on the 23 of September 2014. Subsequently I was awarded a Ph.D.
     degree in physics on 25 September 2014 after the positive decision of the Faculty of
     Physics, Astronomy and Applied Computer Science council.
-* Internship at the Institute of Nuclear Physics in Jülich (**2011-2012**)
+* **2011-2012**
+  * $\approx 0.5$ year Internship at the Institute of Nuclear Physics in Jülich 
   * *institution*: Institut für Kernphysik, Forschungszentrum Jülich, Germany
   * *description*: My half year stay at the interdisciplinary research center in Jülich gave me 
 	  the possibility to
     have direct access to specialists in parallel computing on large computing clusters. This was a
     great opportunity and had a big impact on my research.
-* International PhD Studies (**2010-2014**)
+* **2010-2014**
+  * International PhD Studies
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
   * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](http://www.ips.if.uj.edu.pl/). 
     The studies lasted for four years. My chosen topic “Few-nucleon fusion reactions” was
     being supervised of professor Jacek Golak.
-* Ph.D. studies in Physics (**2009-2014**)
+* **2009-2014**
+  * Ph.D. studies in Physics
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
   * *description*: PhD studies in Nuclear Physics under the supervision of professor Jacek Golak. My research
     was focused on the description of few (two, three) nucleon systems. The character of my
@@ -59,12 +63,14 @@ title : Kacper Topolnicki, CV
     complicated algebraic expressions that arise in the calculations. The development of these
     methods was made possible with the use of symbolic programming within the 
 		[Mathematica](https://www.wolfram.com/mathematica/) system.
-* M.Sc - Physics (**2009**)
+* **2009**
+  * M.Sc - Physics 
   * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
   * *description*: In 2009 I finished my five year studies in physics (majored in theoretical physics). My masters
     thesis titled: “Lattice models of chiral liquid crystal phases in Monte Carlo simulations” was
     written under the supervision of professor Lech Longa.
-* Studies in Physics (**2004-2009**)
+* **2004-2009**
+  * Studies in Physics 
   * *description*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiel-
     lonian University
   * *institution*: In 2004 I started “Studies in Mathematics and Natural Sciences”. I chose to
@@ -88,25 +94,25 @@ title : Kacper Topolnicki, CV
 
 # Grants
 
-* Principal investigator:
-  * SONATA 11 (3 years, **2017-2020**)
+* principal investigator
+  * [2017-2020, 3 years] SONATA 11 
     * *funding agency*: National Science Center, Poland
     * *grant number*: DEC-2016/21/D/ST2/01120
     * *title*: "Development of analytical and numerical 
       computation techniques related to few-nucleon systems"
-  * PRELUDIUM 6 (2 years, **2014-2016**)
+  * [2014-2016, 2 years] PRELUDIUM 6 
     * *funding agency*: National Science Center, Poland
     * *grant number*: DEC-2013/11/N/ST2/03733
     * *title*: "Development of techniques using a three dimensional representation 
       of nucleonic degrees of freedom in few-nucleon bound and scattering state
       calculations"
-* Co-executor:
-  * HARMONIA 8 (**2017**)
+* co-executor
+  * [2017] HARMONIA 8 
     * *funding agency*: National Science Center, Poland
     * *grant number*: DEC-2016/22/M/ST2/00173
     * *title*: "Utilizing consistent chiral nuclear potentials and electroweak currents in order to describe
       three nucleon reactions and properties of nuclei"
-  * HARMONIA 5 (**2014-2016**)
+  * [2014-2016] HARMONIA 5
     * *funding agency*: National Science Center, Poland
     * *grant number*: DEC-2013/10/M/ST2/00420
     * *title*: "Investigation of the properties of light nuclei
@@ -117,15 +123,19 @@ title : Kacper Topolnicki, CV
 
 # Skills and experience
 
-* Languages
+* academic interests
+  * few body systems
+  * nuclear theory
+  * numerical calculations
+* languages
   * Polish (native)
   * English (CAE - 2003, CPE - 2006)
-* Programming
-  * Parallel computing on large computing clusters using MPI, OPENMP
+* programming
+  * parallel computing on large computing clusters using MPI, OPENMP
   * Wolfram Language, Fortran (different flavours), python (different flavours), c, bash
   * other programming languages with less proficiency 
-* Software
-  * Linux
+* software
+  * linux
   * standard Linux tools
   * LaTeX, gnuplot, Mathematica
 

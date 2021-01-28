@@ -1,11 +1,15 @@
-* Languages
+* academic interests
+  * few body systems
+  * nuclear theory
+  * numerical calculations
+* languages
   * Polish (native)
   * English (CAE - 2003, CPE - 2006)
-* Programming
-  * Parallel computing on large computing clusters using MPI, OPENMP
+* programming
+  * parallel computing on large computing clusters using MPI, OPENMP
   * Wolfram Language, Fortran (different flavours), python (different flavours), c, bash
   * other programming languages with less proficiency 
-* Software
-  * Linux
+* software
+  * linux
   * standard Linux tools
   * LaTeX, gnuplot, Mathematica
