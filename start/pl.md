@@ -1,5 +1,5 @@
 ---
-title : Kacper Topolnicki, CV
+title : dr Kacper Topolnicki, CV
 ---
 
 <center>
@@ -15,17 +15,15 @@ title : Kacper Topolnicki, CV
 * [Positions](#positions)
 * [Grants](#grants)
 * [Skills and experience](#skills-and-experience)
-* [Publications (WOS, I 2021)](./0pl.html)
-* [Talks](./00pl.html)
+* [Links](#links)
 * [Other interests](#other-interests)
 
 
 
 # Personal details
 
-* *work adress*: prof. St. Łojasiewicza 11, 30-348 Kraków, Poland (room B-2-25)
+* *e-mail*: <kacpertopol@gmail.com> 
 * *cell phone number*: (+48) 728 364 517
-* *e-mail*: <kacper.topolnicki@uj.edu.pl> 
 
 
 
@@ -33,47 +31,47 @@ title : Kacper Topolnicki, CV
 
 * **2014**
   * Ph.D. - Physics
-  * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: My thesis titled: “The two-nucleon and three-nucleon systems in three dimensions” was
-    successfully defended on the 23 of September 2014. Subsequently I was awarded a Ph.D.
-    degree in physics on 25 September 2014 after the positive decision of the Faculty of
-    Physics, Astronomy and Applied Computer Science council.
+    * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
+    * *description*: My thesis titled: “The two-nucleon and three-nucleon systems in three dimensions” was
+      successfully defended on the 23 of September 2014. Subsequently I was awarded a Ph.D.
+      degree in physics on 25 September 2014 after the positive decision of the Faculty of
+      Physics, Astronomy and Applied Computer Science council.
 * **2011-2012**
   * $\approx 0.5$ year Internship at the Institute of Nuclear Physics in Jülich 
-  * *institution*: Institut für Kernphysik, Forschungszentrum Jülich, Germany
-  * *description*: My half year stay at the interdisciplinary research center in Jülich gave me 
+    * *institution*: Institut für Kernphysik, Forschungszentrum Jülich, Germany
+    * *description*: My half year stay at the interdisciplinary research center in Jülich gave me 
 	  the possibility to
-    have direct access to specialists in parallel computing on large computing clusters. This was a
-    great opportunity and had a big impact on my research.
+      have direct access to specialists in parallel computing on large computing clusters. This was a
+      great opportunity and had a big impact on my research.
 * **2010-2014**
   * International PhD Studies
-  * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](https://fais.uj.edu.pl/applied-nuclear-physics-and-innovative-technologies). 
-    The studies lasted for four years. My chosen topic “Few-nucleon fusion reactions” was
-    being supervised of professor Jacek Golak.
+    * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
+    * *description*: On my second year of regular PhD studies I switched over to the [International PhD Studies in Applied Nuclear Physics and Innovative Technologies](https://fais.uj.edu.pl/applied-nuclear-physics-and-innovative-technologies). 
+      The studies lasted for four years. My chosen topic “Few-nucleon fusion reactions” was
+      being supervised of professor Jacek Golak.
 * **2009-2014**
   * Ph.D. studies in Physics
-  * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: PhD studies in Nuclear Physics under the supervision of professor Jacek Golak. My research
-    was focused on the description of few (two, three) nucleon systems. The character of my
-    work was theoretical and included the development of effective implementations of numerical
-    calculations on large computing clusters (JUQUEEN at the Jülich Supercomputing Centre). A
-    large portion of my efforts were focused on developing consistent methods for treating the
-    complicated algebraic expressions that arise in the calculations. The development of these
-    methods was made possible with the use of symbolic programming within the 
-		[Mathematica](https://www.wolfram.com/mathematica/) system.
+    * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
+    * *description*: PhD studies in Nuclear Physics under the supervision of professor Jacek Golak. My research
+      was focused on the description of few (two, three) nucleon systems. The character of my
+      work was theoretical and included the development of effective implementations of numerical
+      calculations on large computing clusters (JUQUEEN at the Jülich Supercomputing Centre). A
+      large portion of my efforts were focused on developing consistent methods for treating the
+      complicated algebraic expressions that arise in the calculations. The development of these
+      methods was made possible with the use of symbolic programming within the 
+	  [Mathematica](https://www.wolfram.com/mathematica/) system.
 * **2009**
   * M.Sc - Physics 
-  * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
-  * *description*: In 2009 I finished my five year studies in physics (majored in theoretical physics). My masters
-    thesis titled: “Lattice models of chiral liquid crystal phases in Monte Carlo simulations” was
-    written under the supervision of professor Lech Longa.
+    * *institution*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiellonian University
+    * *description*: In 2009 I finished my five year studies in physics (majored in theoretical physics). My masters
+      thesis titled: “Lattice models of chiral liquid crystal phases in Monte Carlo simulations” was
+      written under the supervision of professor Lech Longa.
 * **2004-2009**
   * Studies in Physics 
-  * *description*: Faculty of Physics, Astronomy and Applied Computer Science of the Jagiel-
-    lonian University
-  * *institution*: In 2004 I started “Studies in Mathematics and Natural Sciences”. I chose to
-    specialize in theoretical physics.
+    * *description*: Faculty of Physics, Astronomy and Applied Computer Science of the 
+	  Jagiellonian University
+    * *institution*: In 2004 I started “Studies in Mathematics and Natural Sciences”. I chose to
+      specialize in theoretical physics.
 
 
 # Positions
@@ -134,23 +132,23 @@ title : Kacper Topolnicki, CV
   * parallel computing on large computing clusters using MPI, OPENMP
   * Wolfram Language, Fortran (different flavours), python (different flavours), c, bash
   * other programming languages with less proficiency 
-* software
-  * linux
-  * standard Linux tools
-  * LaTeX, gnuplot, Mathematica
+* frequently used software
+  * linux 
+  * standard linux tools: vim, ssh, etc. 
+  * Mathematica
 
 
-# [Publications (WOS, I 2021)](./0pl.html)
+# Links
 
-
-
-# [Talks](./00pl.html)
-
+* *publications (WOS, I 2021)*: <https://kacpertopol.github.io/cv/0pl.html>
+* *talks*: <https://kacpertopol.github.io/cv/00pl.html>
+* *online resume*: <https://kacpertopol.github.io/cv/> 
+* *blog*: <https://kacpertopol.github.io/myblog/>
 
 
 # Other interests
 
-* [my blog](https://kacpertopol.github.io/myblog/)
 * *music*: Tom Waits, Gelnn Gould
-* *sport*: skiing, windsurfing, air-soft 
+* *sport*: skiing, running
+
 

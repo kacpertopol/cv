@@ -10,7 +10,7 @@
   * parallel computing on large computing clusters using MPI, OPENMP
   * Wolfram Language, Fortran (different flavours), python (different flavours), c, bash
   * other programming languages with less proficiency 
-* software
-  * linux
-  * standard Linux tools
-  * LaTeX, gnuplot, Mathematica
+* frequently used software
+  * linux 
+  * standard linux tools: vim, ssh, etc. 
+  * Mathematica
