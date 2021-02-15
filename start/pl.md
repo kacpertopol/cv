@@ -15,7 +15,8 @@ title : dr Kacper Topolnicki, CV
 * [Positions](#positions)
 * [Grants](#grants)
 * [Skills and experience](#skills-and-experience)
-* [Links](#links)
+* [Publications (WOS, I 2021)](./0pl.html)
+* [Talks](./00pl.html)
 * [Other interests](#other-interests)
 
 
@@ -138,16 +139,17 @@ title : dr Kacper Topolnicki, CV
   * Mathematica
 
 
-# Links
+# [Publications (WOS, I 2021)](./0pl.html)
 
-* *publications (WOS, I 2021)*: <https://kacpertopol.github.io/cv/0pl.html>
-* *talks*: <https://kacpertopol.github.io/cv/00pl.html>
-* *online resume*: <https://kacpertopol.github.io/cv/> 
-* *blog*: <https://kacpertopol.github.io/myblog/>
+
+
+# [Talks](./00pl.html)
+
 
 
 # Other interests
 
+* *blog*: <https://kacpertopol.github.io/myblog/> 
 * *music*: Tom Waits, Gelnn Gould
 * *sport*: skiing, running
 
