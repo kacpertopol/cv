@@ -13,8 +13,8 @@ title : dr Kacper Topolnicki, CV
 * [Personal details](#personal-details)
 * [Education](#education)
 * [Positions](#positions)
-* [Grants](#grants)
 * [Skills and experience](#skills-and-experience)
+* [Grants](#grants)
 * [Publications (WOS, I 2021)](./0pl.html)
 * [Talks](./00pl.html)
 * [Other interests](#other-interests)
@@ -90,6 +90,33 @@ title : dr Kacper Topolnicki, CV
   * [2011-2012, $\approx$ 0.5 year] internship at the [Nuclear Physics Institute (IKP)](https://www.fz-juelich.de/ikp/EN/Home/home_node.html) in Forschungszentrum Jülich, Germany
 
 
+# Skills and experience
+
+* programming
+  * languages
+    * experienced: Wolfram Language, Fortran, python, bash
+    * literate: c, c++, haskell
+    * learning: rust
+  * parallel computing on large computing clusters using MPI, OPENMP
+    * worked with multiple generations of supercomputers
+	  located at the 
+	  [Juelich Supercomputing Centre](https://www.fz-juelich.de/en/ias/jsc/systems/supercomputers) 
+  * worked with the [athena](https://gitlab.cern.ch/atlas/athena) codebase
+    * part of my ATLAS *Qualification Task*
+* communication
+  * Polish (native)
+  * English (CAE - 2003, CPE - 2006)
+* academic 
+  * few body systems
+  * nuclear theory
+  * numerical calculations
+  * data analysis for detector trigger systems
+  * teaching
+* software
+  * standard linux tools: vim, ssh, etc. 
+  * Mathematica
+
+
 # Grants
 
 * principal investigator
@@ -117,33 +144,6 @@ title : dr Kacper Topolnicki, CV
       and three body processes based on chiral nuclear potentials)"
   
 
-
-
-# Skills and experience
-
-* programming
-  * languages
-    * experienced: Wolfram Language, Fortran, python, bash
-    * literate: c, c++, haskell
-    * learning: rust
-  * parallel computing on large computing clusters using MPI, OPENMP
-    * worked with multiple generations of supercomputers
-	  located at the 
-	  [Juelich Supercomputing Centre](https://www.fz-juelich.de/en/ias/jsc/systems/supercomputers) 
-  * worked with the [athena](https://gitlab.cern.ch/atlas/athena) codebase
-    * part of my ATLAS *Qualification Task*
-* communication
-  * Polish (native)
-  * English (CAE - 2003, CPE - 2006)
-* academic 
-  * few body systems
-  * nuclear theory
-  * numerical calculations
-  * data analysis for detector trigger systems
-  * teaching
-* software
-  * standard linux tools: vim, ssh, etc. 
-  * Mathematica
 
 
 # [Publications (WOS, I 2021)](./0pl.html)
