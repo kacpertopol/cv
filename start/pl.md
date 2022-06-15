@@ -123,8 +123,8 @@ title : dr Kacper Topolnicki, CV
 * software
   * standard linux tools: vim, ssh, git, make, etc. 
   * Mathematica (symbolic programming, mathematics)
-  * [openSCAD](https://openscad.org/) (programatic CAD)
-  * 
+  * [openSCAD](https://openscad.org/) (programatic CAD) and 3D printing related software
+
 
 
 # Grants
