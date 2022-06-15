@@ -125,7 +125,7 @@ title : dr Kacper Topolnicki, CV
   * languages
     * experienced: Wolfram Language, Fortran, python, bash
     * literate: c, c++, haskell
-    * currently learning: rust
+    * learning: rust
   * parallel computing on large computing clusters using MPI, OPENMP
     * worked with multiple generations of supercomputers
 	  located at the 
