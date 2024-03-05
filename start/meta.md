@@ -1,3 +1,3 @@
 ---
-title : dr Kacper Topolnicki, CV
+title : dr hab. Kacper Topolnicki, CV
 ---

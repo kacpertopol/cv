@@ -1,5 +1,5 @@
 ---
-title : dr Kacper Topolnicki, CV
+title : dr hab. Kacper Topolnicki, CV
 ---
 
 <center>
@@ -15,7 +15,7 @@ title : dr Kacper Topolnicki, CV
 * [Positions](#positions)
 * [Skills and experience](#skills-and-experience)
 * [Grants](#grants)
-* [Publications (WOS, I 2021)](./0pl.html)
+* [Publications (X 2023)](./0pl.html)
 * [Talks](./00pl.html)
 * [Other interests](#other-interests)
 
@@ -156,7 +156,7 @@ title : dr Kacper Topolnicki, CV
 
 
 
-# [Publications (WOS, I 2021)](./0pl.html)
+# [Publications (X 2023)](./0pl.html)
 
 
 
