@@ -94,8 +94,8 @@ title : dr hab. Kacper Topolnicki, CV
 
 * programming
   * languages
-    * experienced: Wolfram Language, Fortran, python, bash
-    * literate: c, c++, haskell
+    * experienced: Wolfram Language, Fortran, python
+    * literate: c, c++, haskell, bash
     * learning: rust
   * parallel computing on large computing clusters using MPI, OPENMP
     * worked with multiple generations of supercomputers
